@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 public class MonthlyTask extends Task {
 
+
     public MonthlyTask(String title, String description, Type type, LocalDateTime taskDateTime) throws EmptyStringException {
         super(title, description, type, taskDateTime);
     }
